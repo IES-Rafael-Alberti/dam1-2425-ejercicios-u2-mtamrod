@@ -1,7 +1,7 @@
 
 def comprobar_nombre(nombre: str):
     try:
-        if nombre.count('.') > 0 or nombre[0].isdigit() or float(nombre):
+        if nombre.count('.') > 0 or "ª" in nombre or nombre[0].isdigit() or float(nombre) :
             raise Exception("El nombre debe de ser una cadena de caracteres válida")
     except ValueError:
         pass
