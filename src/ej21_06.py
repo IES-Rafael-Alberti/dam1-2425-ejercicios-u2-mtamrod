@@ -54,6 +54,6 @@ def main():
 
     print(f"Eres del sexo {sexo.lower()}, te llamas {nombre.capitalize()} y perteneces al grupo {grupo}")
 
+
 if __name__ == "__main__":
     main()
-

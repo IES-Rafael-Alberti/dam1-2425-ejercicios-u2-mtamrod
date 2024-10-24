@@ -18,11 +18,13 @@ def comprobar_edad() -> int:
 
     return edad
 
+
 def mayor_edad(edad: int) -> str:
     if edad >= 18:
         return "Eres mayor de edad"
     else:
         return "Eres menor de edad"
+
 
 def main():
     edad = comprobar_edad()
