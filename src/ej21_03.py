@@ -27,7 +27,7 @@ def main():
     numero_1, numero_2 = comprobar_numero()
     solucion = divisor_numeros(numero_1, numero_2)
 
-    print(f"{solucion}")
+    print(f"El cociente de la división es {round(solucion, 2)}")
 
 
 if __name__ == "__main__":
