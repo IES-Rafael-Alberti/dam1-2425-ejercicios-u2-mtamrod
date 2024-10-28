@@ -1,19 +1,20 @@
 
 def repetir_numero():
     salir = False
-
+    suma = 0
     while not salir:
-        numero = int(input("Introduce una palabra: "))
-        
+        numero = int(input("Introduce un numero: "))
         if numero == 0:
             salir = True
         else:
-            print(numero)
+            suma += numero
+
+    return suma
 
 
 def main():
-    repetir_numero()
+    print(repetir_numero())
 
 
 if __name__ == "__main__":
-	main()
+    main()
