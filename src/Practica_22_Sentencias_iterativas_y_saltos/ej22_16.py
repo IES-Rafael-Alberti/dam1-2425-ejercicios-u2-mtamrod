@@ -6,7 +6,7 @@ def numero_mayor(numero: int, mayor: int) -> int:
             mayor = numero
         elif numero == 0:
             salir = True
-        numero = int(input("Introduce un número: "))
+        numero = int(input("Introduce un número: ")) #a
 
     return mayor
 
