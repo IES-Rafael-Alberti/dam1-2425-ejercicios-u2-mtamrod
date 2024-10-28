@@ -18,7 +18,13 @@ def años_cumplidos(edad: int) -> str:
     años_cumplidos = ""
 
     for i in range (0, edad + 1):
-        años_cumplidos += str(i) + ", "
+        if i != edad:
+            años_cumplidos += str(i) + ", "
+        else:
+            años_cumplidos = años_cumplidos.rstrip(", ")
+            años_cumplidos += " y actualmente tienes " + str(i) + " años"
+
+    
 
     return años_cumplidos.rstrip(", ")
 
